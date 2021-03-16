@@ -10,13 +10,13 @@ public class Harmonogram{
 	Harmonogram(){
 		fra.setTitle("Harmonogram zajęć");
 		fra.setLayout(new BorderLayout());
-		JLabel label0, label1, label2, label3, label4, label5;
+		JLabel label0, label1, label2;
 		label0 = new JLabel("Liczba godzin: " liczbaGodzin());
 		label0 = new JLabel("Przedmiot: " Przedmiot());
 		label0 = new JLabel("Pozostało godzin: " liczbaPozostalo());
 		aaa.add(label0);
 		label1 = new JLabel("Liczba Godzin: " liczbaPozostalo());
-		label1 = new JLabel("Temat: ");
+		label1 = new JLabel("Temat: " Zajecia());
 		bbb.add(label1);
 		fra.add(aaa, BorderLayout.PAGE_START);
 		fra.add(bbb);
@@ -31,3 +31,4 @@ public class Harmonogram{
 		new Harmonogram();
 	}
 }
+//Jakub Nicpoń 2pt4
