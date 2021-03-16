@@ -18,10 +18,16 @@ public class Godziny{
 		return liczbaGodzin - liczbaGodzTemtow;
 	}
 
-	public void listujTemat(){
-		for( Zajecia zaj : listaTematow){
+	private void dodajTemat(){
+		zaj = new Zajecia(String Temat);
+		Tematy.add(zaj);
+	}
+
+	private void listujTemat(){
+		for( Zajecia zaj : Tematy){
 			Tematy[ i ];
 		}
 	}
 
 }
+//Jakub Nicpoń 2pt4
